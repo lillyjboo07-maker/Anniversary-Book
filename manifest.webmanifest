@@ -1,0 +1,9 @@
+{
+  "name": "Our Anniversary Book",
+  "short_name": "Our Book",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fbf6f2",
+  "theme_color": "#f5e8e7",
+  "description": "DIY anniversary scrapbook planner"
+}
