@@ -128,4 +128,6 @@ function overview(){let done=S.pages.filter(p=>p.status==="Fertig").length,work=
 function render(){let m=document.querySelector("#main");m.innerHTML=V==="book"?book():V==="cover"?cover():V==="shopping"?shopping():overview();if(V==="book"){renderSidebar();setTimeout(drawAllQR,0)}}
 render();
 if("serviceWorker" in navigator && location.protocol.startsWith("http")) navigator.serviceWorker.register("./sw.js").catch(()=>{});
-</script></body></html>
+</script>
+<script src="./anniversary-upgrade.js"></script>
+</body></html>
